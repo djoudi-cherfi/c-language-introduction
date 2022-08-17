@@ -48,3 +48,9 @@ gcc test.c -o programme
 ```zsh
 ./programme
 ```
+
+## Compiler et lire le code à la suite
+
+```zsh
+gcc test.c -o programme && ./programme
+```
