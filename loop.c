@@ -11,10 +11,14 @@ int main() {
     // }
 
     // Exécute l'instruction tant que la condition est true et au moins une fois si elle est false
-    do {
+    // do {
+    //     printf("i vaut %d\n", i);
+    //     i++;
+    // } while (i < 10);
+
+    for (i = 0; i < 10; i++) {
         printf("i vaut %d\n", i);
-        i++;
-    } while (i < 10);
+    }
 
     printf("Boucle terminée !\n");
 
