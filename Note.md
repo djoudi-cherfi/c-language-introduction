@@ -54,3 +54,9 @@ gcc test.c -o programme
 ```zsh
 gcc test.c -o programme && ./programme
 ```
+
+## Compiler, lire et afficher plus d'information
+
+```zsh
+gcc test.c -o programme && ./programme --std=c89 -pedantic
+```
