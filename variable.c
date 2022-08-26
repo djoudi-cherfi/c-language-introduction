@@ -29,20 +29,20 @@ int main() {
     Le programme C suivant affiche la taille de chaque type simple.
     */
 
-    printf("\n %zu octets pour variable de type char", sizeof(char));
-    printf("\n %zu octets pour variable de type unsigned char", sizeof(unsigned char));
-    printf("\n %zu octets pour variable de type short_int", sizeof(short int));
-    printf("\n %zu octets pour variable de type int", sizeof(int));
-    printf("\n %zu octets pour variable de type long int", sizeof(long int));
-    printf("\n %zu octets pour variable de type float", sizeof(float));
-    printf("\n %zu octets pour variable de type double", sizeof(double));
-    printf("\n %zu octets pour adresse vers variable de type char", sizeof(char * ));
-    printf("\n %zu octets pour adresse vers variable de type unsigned char", sizeof(unsigned char * ));
-    printf("\n %zu octets pour adresse vers variable de type short_int", sizeof(short int * ));
-    printf("\n %zu octets pour adresse vers variable de type int", sizeof(int *));
-    printf("\n %zu octets pour adresse vers variable de type long int", sizeof(long int *));
-    printf("\n %zu octets pour adresse vers variable de type float", sizeof(float *));
-    printf("\n %zu octets pour adresse vers variable de type double\n", sizeof(double *));
+    printf("Nombre d'octet : %zu pour variable de type char\n", sizeof(char));
+    printf("Nombre d'octet : %zu pour variable de type unsigned char\n", sizeof(unsigned char));
+    printf("Nombre d'octet : %zu pour variable de type short_int\n", sizeof(short int));
+    printf("Nombre d'octet : %zu pour variable de type int\n", sizeof(int));
+    printf("Nombre d'octet : %zu pour variable de type long int\n", sizeof(long int));
+    printf("Nombre d'octet : %zu pour variable de type float\n", sizeof(float));
+    printf("Nombre d'octet : %zu pour variable de type double\n", sizeof(double));
+    printf("Nombre d'octet : %zu pour adresse de type char\n", sizeof(char * ));
+    printf("Nombre d'octet : %zu pour adresse de type unsigned char\n", sizeof(unsigned char * ));
+    printf("Nombre d'octet : %zu pour adresse de type short_int\n", sizeof(short int * ));
+    printf("Nombre d'octet : %zu pour adresse de type int\n", sizeof(int *));
+    printf("Nombre d'octet : %zu pour adresse de type long int\n", sizeof(long int *));
+    printf("Nombre d'octet : %zu pour adresse de type float\n", sizeof(float *));
+    printf("Nombre d'octet : %zu pour adresse de type double\n", sizeof(double *));
     printf("size_t: %zu\n", sizeof (size_t));
 
     return 0;
