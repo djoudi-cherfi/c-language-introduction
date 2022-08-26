@@ -60,3 +60,11 @@ gcc test.c -o programme && ./programme
 ```zsh
 gcc test.c -o programme && ./programme --std=c89 -pedantic
 ```
+
+## Manuel des commandes générales
+
+> printf, scanf, malloc, free, fopen, fclose, fgetc, fgets, fputc, fputs, fprintf...
+
+```zsh
+man nom_de_la_fonction
+```

@@ -5,7 +5,7 @@
 int main() {
     FILE * fp;
 
-    fp = fopen("file.txt", "r");
+    fp = fopen("readFile.txt", "r");
 
     if (fp == NULL)
     {
